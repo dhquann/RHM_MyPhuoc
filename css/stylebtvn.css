@@ -1,0 +1,477 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin: 0;
+    color: #666666;
+    background-color: #E5E5E5
+}
+
+.top-bar {
+    background-color: #056CB6;
+    height: 50px;
+    line-height: 50px;
+    color: white;
+}
+
+.top-bar a {
+    color: white;
+}
+
+.top-bar a:hover {
+    color: #F2C94C
+}
+
+main {
+    width: 100%;
+    min-height: 600px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    padding: 8px 20px;
+    border-radius: 20px
+}
+
+.navbar .narbar-nav .nav-item .nav-link:hover {
+    background-color: #F2C94C;
+    color: #056CB6
+}
+
+.navbar .navbar-nav .nav-item .dropdown-menu {
+    background-color: #056CB6;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar .navbar-nav .nav-item .dropdown-menu li {
+    border-bottom: 1px solid white;
+}
+
+.navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-item {
+    color: white;
+    transition: all 1s;
+    font-size: 15px;
+}
+
+.navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-item:hover {
+    background-color: #F2C94C;
+    padding-left: 25px;
+}
+
+.banner {
+    width: 100%;
+    min-height: 300px;
+    position: relative
+}
+
+.img-100 {
+    width: 100%;
+    height: auto
+}
+
+.btn {
+    color: white;
+    border-radius: 5px;
+    background-color: #056CB6;
+}
+
+.btn2 {
+    color: white;
+    border-radius: 5px;
+    background-color: #056CB6;
+    border: 0;
+    width: 150px;
+    height: 40px;
+    margin-left: 200px
+}
+
+.btn2:hover {
+    background-color: #F2C94C;
+    border: 0;
+}
+
+#client .hinh {
+    position: relative
+}
+
+#client .truoc {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 6px;
+    background-color: white;
+    color: #4F4F4F;
+}
+
+#client .sau {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    padding: 6px;
+    background-color: white;
+    color: #4F4F4F
+}
+
+.btn:hover {
+    background-color: #F2C94C;
+    border: 0;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white
+}
+
+.btn2 a {
+    text-decoration: none;
+    color: white
+}
+
+.bg-trang {
+    background-color: #F8FAF5;
+    width: 100%;
+    height: 350px;
+    text-align: center;
+    padding: 30px
+}
+
+.bg-trang h5 a {
+    text-decoration: none;
+    color: black
+}
+
+.bg-trang h5 a:hover {
+    color: #F2C94C;
+}
+
+#why {
+    width: 100%;
+    min-height: 350px;
+    background: url("../images/why.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+
+.text-font {
+    font-size: 16px;
+    padding-left: 20px
+}
+
+.text-p {
+    padding-left: 20px;
+    font-size: 13px
+}
+
+.vien {
+    text-align: start;
+}
+
+.vien h5 a {
+    text-decoration: none;
+    color: black;
+    font-size: 19px
+}
+
+.vien h5 a:hover {
+    color: #F2C94C;
+}
+
+.comment p a {
+    text-decoration: none;
+    color: black
+}
+
+.comment p a:hover {
+    color: #F2C94C;
+}
+
+footer .navbar-nav .nav-item .nav-link:hover {
+    color: #FFC113
+}
+
+.btn-secondary {
+    background-color: #FFC113;
+    color: white
+}
+
+.btn-secondary:hover {
+    background-color: rgba(237, 236, 0, 1.00)
+}
+
+.gach-chan {
+    border-bottom: 2px solid #F2C94C;
+    padding-bottom: 20px
+}
+
+/*
+.navbar-nav {
+	margin-top: 50px
+}
+*/
+
+.navbar-nav li a {
+    font-size: 16px
+}
+
+.navbar-nav li a:hover {
+    color: #F2C94C
+}
+
+.font-cuoi {
+    font-size: 16px;
+    padding-top: 45px
+}
+
+.menu a i:hover {
+    color: #F2C94C
+}
+
+.bottom-bar {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+}
+
+#banner {
+    width: 100%;
+    min-height: 300px;
+    background: url("../images/pageheader.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin-bottom: 40px
+}
+
+.f-14 {
+    font-size: 14px
+}
+
+.f-16 {
+    font-size: 16px
+}
+
+.vien-xam {
+    background-color: #F8FAF5;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.form-search {
+    border: 1px solid rgba(118, 111, 111, 0.60)a;
+    width: 70%;
+    height: 40px;
+    padding: 10px;
+    text-decoration: none;
+    outline: 0;
+    margin-top: 50px
+}
+
+.nut {
+    width: 60px;
+    height: 40px;
+    border: 0;
+    background-color: #056CB6;
+    margin-top: 50px
+}
+
+.nut:hover {
+    background-color: #FFC113;
+}
+
+.vien-xam2 a {
+    text-decoration: none;
+    color: #666666
+}
+
+.vien-xam2 a span:hover {
+    color: #FFC113
+}
+
+.vien-xam2 a i:hover {
+    color: #FFC113
+}
+
+.vien-xam2 {
+    background-color: #F8FAF5;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+    color: #666666
+}
+
+.dennhe {
+    color: #666666
+}
+
+.vien-xam3 a {
+    text-decoration: none;
+    color: #666666
+}
+
+.vien-xam3 a:hover {
+    color: #056CB6;
+}
+
+.vien-xam3 {
+    background-color: #F8FAF5;
+    height: 350px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+.mg-35 {
+    margin-left: 35px
+}
+
+.thanh {
+    display: flex;
+    justify-content: center
+}
+
+.ptruoc {
+    background-color: gray;
+    width: 15%;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 5px
+}
+
+#content5 .ptruoc a {
+    text-decoration: none;
+    color: white;
+}
+
+#content5 .ptruoc:hover {
+    background-color: #056CB6;
+    color: white
+}
+
+#content5 .bentrong {
+    background-color: gray;
+    width: 6%;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 5px
+}
+
+#content5 .bentrong a {
+    text-decoration: none;
+    color: white;
+}
+
+#content5 .bentrong:hover {
+    background-color: #056CB6;
+}
+
+.vien-ben-trai {
+    border-left: 5px solid #666666
+}
+
+#content h5 a {
+    text-decoration: none;
+    color: black;
+}
+
+#content h5 a:hover {
+    color: #F2C94C;
+}
+
+#content2 h5 a {
+    text-decoration: none;
+    color: black;
+}
+
+#content2 h5 a:hover {
+    color: #F2C94C;
+}
+
+#content3 h5 a {
+    text-decoration: none;
+    color: black;
+}
+
+#content3 h5 a:hover {
+    color: #F2C94C;
+}
+
+#content4 h5 a {
+    text-decoration: none;
+    color: black;
+}
+
+#content4 h5 a:hover {
+    color: #F2C94C;
+}
+
+#content5 h5 a {
+    text-decoration: none;
+    color: black;
+}
+
+#content5 h5 a:hover {
+    color: #F2C94C;
+}
+
+#content4 button a {
+    text-decoration: none;
+    color: white
+}
+
+#content3 button a {
+    text-decoration: none;
+    color: white
+}
+
+#content2 button a {
+    text-decoration: none;
+    color: white
+}
+
+#content button a {
+    text-decoration: none;
+    color: white
+}
+
+#content5 button a {
+    text-decoration: none;
+    color: white
+}
+
+#content5 p a {
+    text-decoration: none;
+    color: #666666
+}
+
+#content5 p a:hover {
+    color: #F2C94C;
+}
+
+#camnhan .noidung img {
+    width: 80px;
+    height: 80px;
+}
+
+#camnhan .noidung {
+    padding: 0px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#camnhan .vien-nguoi {
+    border: 2px solid #FFC113
+}
